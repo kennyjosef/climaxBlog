@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Noto+Sans:wght@400;500;700&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="overlay keep" id="overlay"></div>
+    <header>
+        <div class="logo">
+            <h3>CLIMAX</h3>
+        </div>
+        <nav class="menu-links" id="menu-links">
+            <ul>
+                <a href="#" class="close" id="close">&times;</a>
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Services</a></li>
+                
+            </ul>
+            <div class="enter hide" >
+                <button>Login</button>
+                <button>Sign up</button>
+            </div>
+        </nav>
+        <div class="enter" id="enter">
+            <button>Login</button>
+            <button>Sign up</button>
+        </div>
+        <div class="hamburger" id="hamburger">
+             &#9776;
+        </div>
+    </header>
+    <div class="current-date">
+        <pre id="date-now">Date:</pre>
+    </div>
+    <div class="hero-section">
+        <p class="hero-p">our blog</p>
+        <h1>Stories, Blogs <span>and</span> Interviews </h1>
+        <p class="hero-para">Subscribe to read our news blogs, lastest in technology and updates</p>
+        <form action="">
+            <div class="control">
+                <input type="email" name="email" id="email" placeholder=" Enter your email" required>
+                <small id="badMessage"></small>
+            </div>
+            <button class="submit">Subscribe</button>
+        </form>
+    </div>
+    <article class="recent-blog">
+        <div>
+            <h4 class="recent">Recent</h4>
+        </div>
+        <div class="content">
+            <div class="item content-one">
+                <img src="./images/c1.png" alt="">
+                <p>9th Sept, 2022.</p>
+                <p>title</p>
+                <p>text</p>
+                <button>read more</button>
+            </div>
+            <div class=" item content-two">
+                <div class="side">
+                    <img src="./images/c2.png" alt="pic">
+                    <div class="side-details">
+                        <p class="date">9th Sept, 2022.</p>
+                        <div>
+                            <h4>Team Work</h4>
+                            <p>Togther Everyone Achieves More. The best way to learn fast and best it to work togther with like minds
+                                <span id="dots">...</span>
+                                <span id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur dicta perferendis, tempora itaque labore accusamus ullam aliquid architecto, explicabo quasi? Velit totam, dolorum minima illum sint sapiente odio consequatur!</span></p>
+                                <button id="btn">read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="side">
+                    <img src="./images/c3.png" alt="pic">
+                    <div class="side-details">
+                        <p class="date">9th Sept, 2022.</p>
+                        <div>
+                            <h4>Work Space</h4>
+                            <p>Everyone needs a work place, and not just one, but a conducive and relaxed placed, Fully conditioned. A work place is your office. It could be in yor house or anywh<span id="dot">...</span><span id="mores">ere Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quos porro dolorum! Perspiciatis sunt, soluta esse neque suscipit, praesentium veritatis atque corrupti fugiat rem illo. Odio ut laboriosam consequuntur eius.</span>
+                            </p>
+                            <button id="btns">read more</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+    <section>
+        <div>
+            <h4 class="all-blogs">All Blogs</h4>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="mini-container">
+                <img src="./images/c4.png" alt="">
+                <p class="date" class="date">12th Sept. 2022.</p>
+                <h4>Fast Technology Development</h4>
+                <p class="miniBlog">The world is fast developing. therefore, humans need to develop themselves and acquire the skill<span id="dots-one">...</span>
+                <span id="more-one"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut eius velit harum! Pariatur architecto ad nostrum reiciendis cumque tempore consequuntur laudantium odit! Laborum incidunt amet earum hic! Ipsam, illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempora officia ut reprehenderit consequatur ullam cumque maiores! Illo, autem atque consequatur cumque at provident sint, earum, aspernatur suscipit quaerat minus.</span></p>
+                <div>
+                    <button id="btn-one">Read more</button>
+                    <button>Delete Blog</button>
+                </div>
+            </div>
+            <div class="mini-container">
+                <img src="./images/c5.png" alt="">
+                <p class="date" class="date">12th Sept. 2022.</p>
+                <h4>Title</h4>
+                <p class="miniBlog">The world is fast developing. therefore, humans need to develop themselves and acquire the skill<span id="dots-two">...</span>
+                <span id="more-two"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aut eius velit harum! Pariatur architecto ad nostrum reiciendis cumque tempore consequuntur laudantium odit! Laborum incidunt amet earum hic! Ipsam, illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempora officia ut reprehenderit consequatur ullam cumque maiores! Illo, autem atque consequatur cumque at provident sint, earum, aspernatur suscipit quaerat minus.</span></p>
+                    
+                <div>
+                    <button id="btn-two">Read more</button>
+                    <button>Delete Blog</button>
+                </div>
+            </div>
+            <div class="mini-container">
+                <img src="./images/c6.png" alt="">
+                <p class="date">12th Sept. 2022.</p>
+                <h4>Title</h4>
+                <p class="miniBlog">Text</p>
+                <div>
+                    <button>Read more</button>
+                    <button>Delete Blog</button>
+                </div>
+            </div>
+            <div class="mini-container">
+                <img src="./images/c7.png" alt="">
+                <p class="date">12th Sept. 2022.</p>
+                <h4>Title</h4>
+                <p class="miniBlog">Text</p>
+                <div>
+                    <button>Read more</button>
+                    <button>Delete Blog</button>
+                </div>
+            </div>
+            <div class="mini-container">
+                <img src="./images/c8.png" alt="">
+                <p class="date">12th Sept. 2022.</p>
+                <h4>Title</h4>
+                <p class="miniBlog">Text</p>
+                <div>
+                    <button>Read more</button>
+                    <button>Delete Blog</button>
+                </div>
+            </div>
+            <div class="mini-container">
+                <img src="./images/c9.png" alt="">
+                <p class="date">12th Sept. 2022.</p>
+                <h4>Title</h4>
+                <p class="miniBlog">Text</p>
+                <div>
+                    <button>Read more</button>
+                    <button>Delete Blog</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foots"> 
+            <div class="mojo">
+            <h4>Join our mailing list</h4>
+            <p>Be the first to know about the newest news and best deal on Climax Tech</p>
+            <form>
+                <input  class="email" type="text" id="email" placeholder="Input Email" required/>
+                <input class="submit" type="submit" value="→"></input>
+                <p>Emails subject to <span>privacy policy</span></p>
+            </form>
+            
+            </div>
+
+            <div class="social">
+                <h3>Follow us on</h3>
+                <div class="fb">
+                 <img src="./images/facebook.png" class="foot" alt="pic"/>
+                 <img src="./images/twiiter.png" class="foot" alt="pic"/>
+                 <img src="./images/instagram.png" class="foot" alt="pic"/>
+                 </div>
+            </div>
+            <div class="power">
+                <button class="enroll" >Enroll as Partner</button>
+                <p>Want to be a reader?</p>
+                <button class="enroll" >Click Me</button>
+                 
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js.js"></script>
+</body>
+</html>
