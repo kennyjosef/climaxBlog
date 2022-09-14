@@ -71,7 +71,7 @@ function myFunctionText() {
   const date= new Date();
   currentDate.textContent=date
   // currentDate.textContent=date.toUTCString();
-  // currentDate.textContent=date.toLocaleString('en-GB');
+  currentDate.textContent=date.toLocaleString('en-GB');
 
   const dotsOne= document.getElementById('dots-one')
   const btnOne = document.getElementById('btn-one')
