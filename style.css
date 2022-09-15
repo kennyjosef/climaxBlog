@@ -173,6 +173,13 @@ small{
     display: flex;
     width: 100%;
 }
+.content-one{
+    /* border: 1px solid red; */
+}
+.content-one .para{
+    padding-right: 25px;
+    line-height: 20px;
+}
 .item{
     width: 50%;
 }
@@ -192,7 +199,7 @@ small{
     padding-bottom: 10px;
 
 }
-.side-details button{
+.side-details button, #btn-seven{
     width: 100px;
     height: 25px;
     background-color: darkblue;
@@ -206,14 +213,17 @@ small{
 .side-details div{
     padding-bottom: 10px;
 }
-.side-details div p{
+.side-details div p,.para{
     text-align: justify;
     padding-top: 10px;
 }
-#more, #mores{
+#more, #mores, #more-seven{
     display: none;
 }
 /* for section */
+section{
+    width: 100%;
+}
 .all-blogs{
     padding-bottom: 20px;
     font-size: 25px;
@@ -224,7 +234,6 @@ section div hr{
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
-    background-color: darkblue;
 }
 section{
     width: 90%;
@@ -236,6 +245,7 @@ section{
     flex-wrap:wrap;
     width: 90%;
     margin: auto;
+
 }
 .container div img{
     border-radius: 10px;
@@ -262,7 +272,7 @@ section{
     cursor: pointer;
     
 }
-#more-one, #more-two{
+#more-one, #more-two,#more-three, #more-four, #more-five,#more-six{
     display: none;
 }
 .miniBlog{
@@ -474,6 +484,9 @@ footer{
     }
     .side-details{
         padding-left: 0px;
+    }
+    .miniBlog{
+        max-width: 100%;
     }
     
     .foots{
